@@ -11,7 +11,7 @@ Backbone has a great MV* convention, however, the views, models, and collections
 2. Create application folder in your client code folder. This folder looks like the sampleApp folder, which contains collections, models, routers, and views
 3. Create index.js to tell the add-on what to load into the app on start up
 
-```javascript
+``` javascript
 var startup = app.startup = function() {
   console.log('Initilizing application...');
 
@@ -42,5 +42,22 @@ var startup = app.startup = function() {
       if (typeof startup == 'function')
         startup();
     });
+
+```
+
+3. Finally, anywhere in your app, you can access your routers, collection, models, and views via global variable "app".
+
+```javascript
+	//get component by name
+	app.getCollection('name');
+	app.getView('name');
+	app.getRouter('name');
+	app.getModel('name');
+	
+	//get all components by type
+	app.getCollections();
+	app.getViews();
+	app.getRouters();
+	app.getModels();
 
 ```
