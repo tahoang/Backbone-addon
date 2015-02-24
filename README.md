@@ -1,4 +1,4 @@
-# Backbone-addon
+﻿# Backbone-addon
 
 Backbone has a great MV* convention, however, the views, models, and collections need to be managed in some way for easy access in application. This add-on provides ways to access those components in one place via app global variable.
 
@@ -35,8 +35,8 @@ var startup = app.startup = function() {
 ```
 
 ###Usage
-1. Make sure your html page reference your javascript code. 
-2. Trigger application startup function in your HTML page.
+* Make sure your html page reference your javascript code. 
+* Trigger application startup function in your HTML page.
 ```javascript
     $(function() {
       if (typeof startup == 'function')
@@ -45,7 +45,7 @@ var startup = app.startup = function() {
 
 ```
 
-3. Finally, anywhere in your app, you can access your routers, collection, models, and views via global variable "app".
+* Finally, anywhere in your app, you can access your routers, collection, models, and views via global variable **app**.
 
 ```javascript
 	//get component by name
