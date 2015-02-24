@@ -5,7 +5,7 @@ ESRGC 2014
 index.js
 
 
-Critical area web application
+backbone application
 start up function
 */
 var startup = app.startup = function() {
@@ -13,13 +13,9 @@ var startup = app.startup = function() {
 
   //start application
   app.application({
-    name: 'CriticalArea',
+    name: 'Sample app',
     views: [
-      'Disclaimer',
-      'Map',
-      'Search',
-      'Print',
-      'Share'
+      
     ],
     collections: [
      
