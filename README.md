@@ -7,9 +7,9 @@ Backbone has a great MV* convention, however, the views, models, and collections
 
 
 ###Application setup
-1. Navigate to your application folder.
-2. Create application folder in your client code folder. This folder looks like the sampleApp folder, which contains collections, models, routers, and views
-3. Create index.js to tell the add-on what to load into the app on start up
+* Navigate to your application folder.
+* Create application folder in your client code folder. This folder looks like the sampleApp folder, which contains collections, models, routers, and views
+* Create index.js to tell the add-on what to load into the app on start up
 
 ``` javascript
 var startup = app.startup = function() {
@@ -33,6 +33,7 @@ var startup = app.startup = function() {
   });
 };
 ```
+* Create your models, collections, routers, and views accordingly in the application folder
 
 ###Usage
 * Make sure your html page reference your javascript code. 
