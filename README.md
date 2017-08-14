@@ -35,7 +35,7 @@ var startup = app.startup = function() {
 ```
 * Create your models, collections, routers, and views accordingly in the application folder
 
-###Usage
+## Usage
 * Make sure your html page reference your javascript code. 
 * Trigger application startup function in your HTML page.
 ```javascript
