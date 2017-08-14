@@ -2,11 +2,11 @@
 
 Backbone has a great MV* convention, however, the views, models, and collections need to be managed in some way for easy access in application. This add-on provides ways to access those components in one place via app global variable.
 
-##Getting Started
+## Getting Started
  Download the source code to your client side JavaScript folder.
 
 
-#Application setup
+## Application setup
 * Navigate to your application folder.
 * Create application folder in your client code folder. This folder looks like the sampleApp folder, which contains collections, models, routers, and views
 * Create index.js to tell the add-on what to load into the app on start up
